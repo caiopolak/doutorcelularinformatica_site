@@ -1,6 +1,6 @@
 # Doutor Celular Informática - Landing Page 📱💻
 
-![Preview](https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?auto=format&fit=crop&q=80&w=800) <!-- Você pode trocar essa imagem por um print da tela do site no futuro -->
+![Preview](https://github.com/caiopolak/doutorcelularinformatica_site/blob/main/logo.jpg?raw=true) <!-- Você pode trocar essa imagem por um print da tela do site no futuro -->
 
 Bem-vindo ao repositório do projeto **Doutor Celular Informática**, uma Landing Page moderna, responsiva e focada em alta conversão para uma assistência técnica de dispositivos eletrônicos localizada em Maresias/SP. 
 
