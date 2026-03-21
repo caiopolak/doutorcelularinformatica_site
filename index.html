@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doutor HD Cell Informática - Conserto de celular em até 1 hora em Maresias. Manutenção de computadores, notebooks e celulares com 17 anos de experiência.">
+    <title>Doutor HD Cell Informática | Conserto Rápido em Maresias</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Phosphor Icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="Doutor HD Cell Informática Logo">
+                <span class="logo-text">Doutor <span class="highlight-yellow">HD Cell</span></span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                <li><a href="#avaliacoes" class="nav-link">Avaliações</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <a href="#" class="btn-primary nav-cta" onclick="openWhatsApp(event)">Fale Conosco</a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge fade-in-up">
+                    <i class="ph-fill ph-medal"></i> Mais de 17 anos de experiência
+                </div>
+                <h1 class="fade-in-up delay-1">Conserto de celular em até <span class="highlight-yellow">1 hora</span> em Maresias</h1>
+                <p class="fade-in-up delay-2">Reparamos seu smartphone, notebook ou computador no mesmo dia, com 3 meses de garantia e o melhor atendimento da região.</p>
+                <div class="hero-cta fade-in-up delay-3">
+                    <button class="btn-primary btn-large btn-glow" onclick="openWhatsApp(event)">
+                        <i class="ph-fill ph-whatsapp-logo"></i> Chamar no WhatsApp agora
+                    </button>
+                    <div class="social-proof-hero">
+                        <div class="stars">
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star-half"></i>
+                        </div>
+                        <span><strong>4.7/5</strong> Baseado em mais de 80 avaliações</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right delay-2">
+                <div class="image-wrapper">
+                    <!-- Professional repair image -->
+                    <img src="https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?auto=format&fit=crop&q=80&w=800" alt="Conserto de Celular Maresias" class="main-img">
+                    <div class="floating-badge badge-1 bounce">
+                        <i class="ph-fill ph-wrench"></i>
+                        <span>Reparo Rápido</span>
+                    </div>
+                    <div class="floating-badge badge-2 bounce delay-1">
+                        <i class="ph-fill ph-shield-check"></i>
+                        <span>3 Meses de Garantia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Services Section -->
+    <section id="servicos" class="services section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Nossos <span class="highlight-yellow">Serviços</span></h2>
+                <p class="section-subtitle">Soluções completas para seus dispositivos, com qualidade e conserto ultra-rápido.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon"><i class="ph ph-device-mobile"></i></div>
+                    <h3>Smartphones</h3>
+                    <p>Conserto rápido de Android e iPhone. Troca de tela, bateria, conector e botões.</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon"><i class="ph ph-laptop"></i></div>
+                    <h3>Notebooks</h3>
+                    <p>Manutenção preventiva, formatação, troca de tela, teclado, baterias e upgrades.</p>
+                </div>
+                <div class="service-card reveal delay-3">
+                    <div class="service-icon"><i class="ph ph-desktop"></i></div>
+                    <h3>Computadores</h3>
+                    <p>Montagem, limpeza interna, diagnóstico avançado e resolução de qualquer problema.</p>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon"><i class="ph ph-cpu"></i></div>
+                    <h3>Reparo em Placa</h3>
+                    <p>Micro soldagem e reparo avançado em placas mães de celulares (inclusive iPhones) e notebooks.</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon"><i class="ph ph-hard-drives"></i></div>
+                    <h3>Recuperação de HD</h3>
+                    <p>Recuperamos os dados do seu HD com segurança. HDs externos e internos.</p>
+                </div>
+                <div class="service-card reveal delay-3">
+                    <div class="service-icon"><i class="ph ph-speaker-hifi"></i></div>
+                    <h3>Componentes</h3>
+                    <p>Troca e reparo de microfones, alto-falantes, câmeras e tampa traseira.</p>
+                </div>
+            </div>
+            
+            <div class="services-cta text-center mt-4 reveal">
+                <p class="mb-2">Serviços a partir de <strong>R$ 150</strong>. Para o seu problema temos a solução!</p>
+                <button class="btn-outline" onclick="openWhatsApp(event)">Solicitar um Orçamento Agora</button>
+            </div>
+        </div>
+    </section>
+    <!-- Differentials Section -->
+    <section id="diferenciais" class="differentials section bg-darker overflow-hidden">
+        <div class="container container-flex align-center gap-4">
+            <div class="differentials-content flex-1 reveal-left">
+                <h2 class="section-title">Por que escolher o <span class="highlight-yellow">Doutor HD Cell?</span></h2>
+                <p class="text-light mb-3">Assistência técnica de verdade, focada em resolver o problema com honestidade e rapidez sem te deixar na mão.</p>
+                <ul class="differentials-list text-indent">
+                    <li>
+                        <div class="diff-icon"><i class="ph-fill ph-clock-countdown"></i></div>
+                        <div>
+                            <h4>Reparo no Mesmo Dia</h4>
+                            <p>Trocamos a sua tela ou bateria em até 1 hora. Valorizamos o seu tempo.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diff-icon"><i class="ph-fill ph-medal"></i></div>
+                        <div>
+                            <h4>17 Anos de Experiência</h4>
+                            <p>Nossa fundação foi construída baseando-se em solucionar problemas com exatidão.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diff-icon"><i class="ph-fill ph-shield-check"></i></div>
+                        <div>
+                            <h4>3 Meses de Garantia</h4>
+                            <p>Prezamos pelo trabalho de excelência com garantia total, prezando pelo seu celular.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diff-icon"><i class="ph-fill ph-handshake"></i></div>
+                        <div>
+                            <h4>Honestidade e Transparência</h4>
+                            <p>Orçamento justo, acompanhe as peças sendo separadas, tudo muito claro.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="differentials-image flex-1 reveal-right">
+                <div class="image-wrapper glass-border">
+                    <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&q=80&w=800" alt="Técnico experiente trabalhando">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How it Works Section -->
+    <section class="how-it-works section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Como <span class="highlight-yellow">Funciona?</span></h2>
+                <p class="section-subtitle">Um processo simples, veloz e sem dores de cabeça.</p>
+            </div>
+            <div class="steps-grid position-relative">
+                <div class="step-card reveal delay-1">
+                    <div class="step-icon-wrapper">
+                        <i class="ph ph-whatsapp-logo step-icon"></i>
+                        <span class="step-number">01</span>
+                    </div>
+                    <h4>Chame no WhatsApp</h4>
+                    <p>Entre em contato conosco rapidamente pelo app de mensagens.</p>
+                </div>
+                <div class="step-line hide-mobile"></div>
+                <div class="step-card reveal delay-2">
+                    <div class="step-icon-wrapper">
+                        <i class="ph ph-device-rotate step-icon"></i>
+                        <span class="step-number">02</span>
+                    </div>
+                    <h4>Envie o Problema</h4>
+                    <p>Relate o que aconteceu, o modelo ou mande fotos do aparelho.</p>
+                </div>
+                <div class="step-line hide-mobile"></div>
+                <div class="step-card reveal delay-3">
+                    <div class="step-icon-wrapper">
+                        <i class="ph ph-receipt step-icon"></i>
+                        <span class="step-number">03</span>
+                    </div>
+                    <h4>Receba o Orçamento</h4>
+                    <p>Enviaremos um orçamento sincero, justo e transparente na hora.</p>
+                </div>
+                <div class="step-line hide-mobile"></div>
+                <div class="step-card reveal delay-4">
+                    <div class="step-icon-wrapper">
+                        <i class="ph ph-wrench step-icon"></i>
+                        <span class="step-number">04</span>
+                    </div>
+                    <h4>Conserto Rápido</h4>
+                    <p>Traga o aparelho e saia com ele novo, a maioria em apenas 1h!</p>
+                </div>
+            </div>
+            <div class="text-center mt-5 reveal delay-5">
+                <button class="btn-primary btn-large btn-glow" onclick="openWhatsApp(event)">Estou com o celular quebrado, iniciar agora!</button>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews Section -->
+    <section id="avaliacoes" class="reviews section bg-darker">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">O que dizem <span class="highlight-yellow">Nossos Clientes</span></h2>
+                <p class="section-subtitle">Confiança construída com muito trabalho duro no Google (+80 Avaliações 4.7★).</p>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card glass-panel reveal delay-1">
+                    <div class="review-header">
+                        <div class="reviewer-initial">F</div>
+                        <div>
+                            <h4>Fernanda Ignacio</h4>
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Pense num ser humano bom. Multiplique por 10 e vc terá o Rubens! Honesto, prestativo, cuidadoso, gentil e competente no que faz. Super recomendo."</p>
+                    <span class="review-date">Há 1 ano</span>
+                </div>
+                <div class="review-card glass-panel reveal delay-2">
+                    <div class="review-header">
+                        <div class="reviewer-initial">M</div>
+                        <div>
+                            <h4>Matheus Carro</h4>
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"O Rubens me atendeu primeiro por telefone, me falou o que era o problema e vim até a loja. Chegando, resolveu rapidamente, preço justo, atendimento bacana."</p>
+                    <span class="review-date">Há 2 anos</span>
+                </div>
+                <div class="review-card glass-panel reveal delay-3">
+                    <div class="review-header">
+                        <div class="reviewer-initial">A</div>
+                        <div>
+                            <h4>Anderson Schimerski</h4>
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"O cara é super gente boa, o conserto é rápido, não tem frescura como outros que falam bem buscar amanhã!!! Rápido e confiante."</p>
+                    <span class="review-date">Há 1 ano</span>
+                </div>
+                <div class="review-card glass-panel reveal delay-4">
+                    <div class="review-header">
+                        <div class="reviewer-initial">D</div>
+                        <div>
+                            <h4>Daniella Guerra</h4>
+                            <div class="stars">
+                                <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Ótima experiência, o dono foi muito atencioso, resolveu rapidamente nosso problema no celular, muito honesto, preço justo, super recomendo!"</p>
+                    <span class="review-date">Há 1 ano</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Location & Contact Section -->
+    <section id="contato" class="contact section position-relative overflow-hidden">
+        <div class="contact-bg-glow"></div>
+        <div class="container container-flex align-center gap-4">
+            <div class="contact-info flex-1 reveal-left">
+                <h2 class="section-title">Estamos em <span class="highlight-yellow">Maresias</span></h2>
+                <p class="text-light mb-3">A melhor assistência técnica da região, pronta para consertar seu aparelho com agilidade e proximidade.</p>
+                
+                <div class="contact-details mt-2">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="ph-fill ph-map-pin"></i></div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua Atlantis 612, Maresias</p>
+                            <p>São Paulo, SP - CEP 11628-290</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="ph-fill ph-clock"></i></div>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sexta: 09:00h às 19:30h</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="ph-fill ph-envelope-simple"></i></div>
+                        <div>
+                            <h4>E-mail Corporativo</h4>
+                            <p>doutorcelular.jr@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="ph-fill ph-instagram-logo"></i></div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/doutorcelularinfor" target="_blank" class="text-yellow highlight-hover">@doutorcelularinfor</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="btn-primary mt-4 btn-large" onclick="openWhatsApp(event)">
+                    <i class="ph-fill ph-whatsapp-logo"></i> Enviar Mensagem
+                </button>
+            </div>
+            <div class="map-container flex-1 reveal-right">
+                <div class="glass-border">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.729117600109!2d-45.5593855!3d-23.7915525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd5cdbf2fd0cc9%3A0xe5a1babbd2b860ab!2sR.%20Atlantis%2C%20612%20-%20Maresias%2C%20S%C3%A3o%20Sebasti%C3%A3o%20-%20SP%2C%2011628-290!5e0!3m2!1spt-BR!2sbr!4v1711200000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0; border-radius: 14px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-darker text-center-mobile">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo mb-2">
+                    <img src="logo.jpg" alt="Doutor HD Cell Logo" class="footer-logo">
+                    <span class="logo-text">Doutor <span class="highlight-yellow">HD Cell</span></span>
+                </a>
+                <p class="text-light">Assistência Técnica de excelência em Maresias. Manutenção rápida em celulares e computadores com profissionais qualificados. PARA SEU PROBLEMA TEMOS A SOLUÇÃO!</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação Rápidas</h4>
+                <ul>
+                    <li><a href="#servicos">Seção de Serviços</a></li>
+                    <li><a href="#diferenciais">Nossos Diferenciais</a></li>
+                    <li><a href="#avaliacoes">Avaliações Clientes</a></li>
+                    <li><a href="#contato">Encontre-nos</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Fale Agora</h4>
+                <p>Nossa equipe está pronta para responder suas dúvidas no WhatsApp.</p>
+                <button class="btn-outline mt-2 btn-sm" onclick="openWhatsApp(event)">Contato WhatsApp</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container flex-between align-center">
+                <p class="text-sm border-t-glow">&copy; <span id="currentYear"></span> Doutor HD Cell Informática. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/doutorcelularinfor" target="_blank" aria-label="Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="float-whatsapp pulse" onclick="openWhatsApp(event)" aria-label="Falar no WhatsApp">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+    </a>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
