@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function openWhatsApp(event) {
     if (event) event.preventDefault();
     // Default message based on the business
-    const message = "Olá! Gostaria de fazer um orçamento para meu aparelho na Doutor HD Cell Maresias.";
+    const message = "Olá Doutor Celular! Gostaria de fazer um orçamento para meu aparelho.";
     const phone = "5511967122566"; // Phone number from the reviews file (Doutor celular informática owner response)
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
